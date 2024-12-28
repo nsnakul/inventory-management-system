@@ -1,0 +1,17 @@
+<?php
+$id =$_GET['id'];
+echo $id ;
+
+$servername="localhost";
+$userid="root";
+$password="";
+$dbname="IMS";
+
+$conn=new mysqli($servername,$userid,$password,$dbname);
+sql='update item_master set status=0 where id=$id '
+
+
+
+?>
+
+
